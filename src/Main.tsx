@@ -16,14 +16,14 @@ export const Main = () => {
       <VStack  >
         <UseMediaImage />
         <VStack>
-        <Alert fontSize={20} borderRadius={10} status='info'>
-    <AlertIcon />
-   Escolha os produtos do seu pedido clicando abaixo!
-  </Alert>
+          <Alert fontSize={20} borderRadius={10} status='info'>
+            <AlertIcon />
+            <b>Escolha os produtos do seu pedido clicando abaixo!</b>
+          </Alert>
           <Text fontSize={50}><b>↓</b></Text>
         </VStack>
         <Stack >
-          <ModalCart/>
+          <ModalCart />
         </Stack>
 
       </VStack>
